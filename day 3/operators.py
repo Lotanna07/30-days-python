@@ -173,7 +173,10 @@ seconds = year * 365 * 24 * 60 * 60
 
 print("You have lived for", seconds, "seconds.")
 
-23
+
+#23
+for n in range(1, 6):
+    print(n, n**0, n**1, n**2, n**3)
 
 
 
