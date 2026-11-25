@@ -248,3 +248,21 @@ print(challenge.startswith('thirty')) # True
 
 challenge = '30 days of python'
 print(challenge.startswith('thirty')) # False
+
+#rfind()	Find the LAST one
+#format()	Fill in the blanks
+#index()	Where is it? (tantrum if missing)
+#rindex()	Where's the LAST one? (tantrum too!)
+#isalnum()	Only letters & numbers?
+#isalpha()	Only letters?
+#isdecimal()	Only plain numbers?
+#isdigit()	Only numbers (incl. ²)?
+#isnumeric()	Any kind of number (incl. ½)?
+#isidentifier()	Valid box name?
+#islower()	All small?
+#isupper()	All BIG?
+#join()	Glue together
+#strip()	Trim the edges
+#title()	Make it a Title
+#swapcase()	Flip the case
+#startswith()	Do you start with this?
