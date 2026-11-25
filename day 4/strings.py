@@ -187,7 +187,7 @@ print(num.isnumeric()) # False
 
 
 
-#isidentifier()
+#isidentifier() Checks for a valid identifier - it checks if a string is a valid variable name
 challenge = '30DaysOfPython'
 print(challenge.isidentifier()) # False, because it starts with a number
 challenge = 'thirty_days_of_python'
@@ -219,3 +219,32 @@ print(challenge.isupper()) # True
 web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
 result = ' '.join(web_tech)
 print(result) # 'HTML CSS JavaScript React'
+
+
+web_tech = ['HTML', 'CSS', 'JavaScript', 'React']
+result = '# '.join(web_tech)
+print(result) # 'HTML# CSS# JavaScript# React'
+
+
+
+#strip() Removes all given characters starting from the beginning and end of the string
+challenge = 'thirty days of pythoonnn'
+print(challenge.strip('noth')) # 'irty days of py'
+
+
+#title()
+challenge = 'thirty days of python'
+print(challenge.title()) # Thirty Days Of Python
+
+#swapcase() Converts all uppercase characters to lowercase and all lowercase characters to uppercase characters
+challenge = 'thirty days of python'
+print(challenge.swapcase())   # THIRTY DAYS OF PYTHON
+challenge = 'Thirty Days Of Python'
+print(challenge.swapcase())  # tHIRTY dAYS oF pYTHON
+
+#startswith() Checks if String Starts with the Specified String
+challenge = 'thirty days of python'
+print(challenge.startswith('thirty')) # True
+
+challenge = '30 days of python'
+print(challenge.startswith('thirty')) # False
