@@ -18,3 +18,14 @@ print(company)
 #5
 company = ("Coding for All")
 print(len(company))
+
+#6
+print(company.upper())
+
+#7
+print(company.lower())
+
+#8
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
