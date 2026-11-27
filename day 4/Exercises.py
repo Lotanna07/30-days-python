@@ -29,3 +29,12 @@ print(company.lower())
 print(company.capitalize())
 print(company.title())
 print(company.swapcase())
+
+
+#9
+print(company[7:14])
+
+
+#10
+print(company.find("coding"))
+
