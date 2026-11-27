@@ -36,5 +36,31 @@ print(company[7:14])
 
 
 #10
-print(company.find("coding"))
+print(company.find("Coding"))
 
+
+#11
+print(company.replace("Coding", "Python"))
+
+#12
+print(company.replace("All", "Everyone"))
+
+
+#13
+print(company.split())
+
+
+#14
+x = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(x.split(", "))
+
+#15
+print(company[0])
+
+
+#16
+print(company[-1])
+
+
+#17
+print(repr(company[10]))
